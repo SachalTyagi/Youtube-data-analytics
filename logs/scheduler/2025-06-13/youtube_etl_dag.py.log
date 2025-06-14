@@ -1,0 +1,995 @@
+[2025-06-13T20:51:11.508+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:51:11.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:51:11.511+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:51:11.511+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:51:11.531+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:51:11.528+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:51:11.532+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:51:11.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.045 seconds
+[2025-06-13T20:51:46.252+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:51:46.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:51:46.257+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:51:46.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:51:46.280+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:51:46.275+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:51:46.282+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:51:46.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.069 seconds
+[2025-06-13T20:52:16.486+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:52:16.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:52:16.489+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:52:16.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:52:16.503+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:52:16.500+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:52:16.504+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:52:16.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.039 seconds
+[2025-06-13T20:52:46.662+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:52:46.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:52:46.665+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:52:46.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:52:46.679+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:52:46.675+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:52:46.680+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:52:46.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.039 seconds
+[2025-06-13T20:53:16.831+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:53:16.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:53:16.834+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:53:16.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:53:16.846+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:53:16.844+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:53:16.847+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:53:16.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.038 seconds
+[2025-06-13T20:53:47.057+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:53:47.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:53:47.060+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:53:47.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:53:47.071+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:53:47.069+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:53:47.072+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:53:47.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.035 seconds
+[2025-06-13T20:54:17.236+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:54:17.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:54:17.238+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:54:17.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:54:17.249+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:54:17.247+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:54:17.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:54:17.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.035 seconds
+[2025-06-13T20:54:47.464+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:54:47.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:54:47.467+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:54:47.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:54:47.483+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:54:47.480+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:54:47.484+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:54:47.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.042 seconds
+[2025-06-13T20:55:17.645+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:55:17.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:55:17.648+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:55:17.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:55:17.660+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:55:17.657+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:55:17.661+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:55:17.679+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.041 seconds
+[2025-06-13T20:55:47.861+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:55:47.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:55:47.863+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:55:47.863+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:55:47.875+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:55:47.872+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:55:47.876+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:55:47.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.035 seconds
+[2025-06-13T20:56:18.075+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:56:18.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:56:18.078+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:56:18.077+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:56:18.090+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:56:18.088+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:56:18.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:56:18.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.036 seconds
+[2025-06-13T20:56:48.291+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:56:48.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:56:48.294+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:56:48.293+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:56:48.307+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:56:48.304+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:56:48.308+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:56:48.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.041 seconds
+[2025-06-13T20:57:18.484+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:57:18.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:57:18.487+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:57:18.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:57:18.499+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:57:18.497+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:57:18.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:57:18.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.037 seconds
+[2025-06-13T20:57:48.646+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:57:48.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:57:48.649+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:57:48.649+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:57:48.662+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:57:48.659+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:57:48.664+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:57:48.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.047 seconds
+[2025-06-13T20:58:18.844+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:58:18.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:58:18.848+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:58:18.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:58:18.861+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:58:18.859+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:58:18.863+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:58:18.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.053 seconds
+[2025-06-13T20:58:49.015+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:58:49.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:58:49.018+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:58:49.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:58:49.029+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:58:49.027+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:58:49.030+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:58:49.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.042 seconds
+[2025-06-13T20:59:19.211+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:59:19.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:59:19.213+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:59:19.213+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:59:19.227+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:59:19.225+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:59:19.228+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:59:19.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.048 seconds
+[2025-06-13T20:59:49.370+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:59:49.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T20:59:49.373+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:59:49.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:59:49.385+0000] {logging_mixin.py:188} INFO - [2025-06-13T20:59:49.383+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T20:59:49.386+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T20:59:49.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.044 seconds
+[2025-06-13T21:00:19.600+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:19.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:00:19.603+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:00:19.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:19.615+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:00:19.613+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 11, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:00:19.616+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:19.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.036 seconds
+[2025-06-13T21:00:30.755+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:30.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:00:30.758+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:00:30.757+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:30.779+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:00:30.777+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:00:30.780+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:30.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.045 seconds
+[2025-06-13T21:00:33.793+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:33.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:00:33.795+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:00:33.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:33.815+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:00:33.812+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:00:33.816+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:33.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.042 seconds
+[2025-06-13T21:00:34.848+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:34.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:00:34.851+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:00:34.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:34.870+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:00:34.867+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:00:34.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:00:34.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.050 seconds
+[2025-06-13T21:01:10.404+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:01:10.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:01:10.408+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:01:10.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:01:10.424+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:01:10.421+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:01:10.425+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:01:10.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.042 seconds
+[2025-06-13T21:01:40.634+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:01:40.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:01:40.637+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:01:40.636+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:01:40.649+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:01:40.646+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:01:40.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:01:40.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.039 seconds
+[2025-06-13T21:02:10.844+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:02:10.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:02:10.847+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:02:10.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:02:10.860+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:02:10.857+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:02:10.861+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:02:10.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.042 seconds
+[2025-06-13T21:02:41.059+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:02:41.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:02:41.069+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:02:41.069+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:02:41.083+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:02:41.081+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:02:41.084+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:02:41.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.048 seconds
+[2025-06-13T21:03:11.281+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:03:11.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:03:11.283+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:03:11.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:03:11.294+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:03:11.292+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:03:11.295+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:03:11.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.072 seconds
+[2025-06-13T21:03:41.516+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:03:41.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:03:41.519+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:03:41.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:03:41.531+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:03:41.528+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:03:41.532+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:03:41.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.038 seconds
+[2025-06-13T21:04:11.702+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:04:11.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:04:11.704+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:04:11.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:04:11.716+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:04:11.714+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:04:11.717+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:04:11.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.044 seconds
+[2025-06-13T21:04:41.861+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:04:41.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:04:41.863+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:04:41.863+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:04:41.875+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:04:41.872+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:04:41.876+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:04:41.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.036 seconds
+[2025-06-13T21:05:12.111+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:05:12.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:05:12.113+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:05:12.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:05:12.125+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:05:12.123+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:05:12.126+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:05:12.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.034 seconds
+[2025-06-13T21:05:42.306+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:05:42.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:05:42.309+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:05:42.309+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:05:42.323+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:05:42.320+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:05:42.324+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:05:42.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.042 seconds
+[2025-06-13T21:06:12.504+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:06:12.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:06:12.506+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:06:12.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:06:12.518+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:06:12.516+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:06:12.519+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:06:12.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.044 seconds
+[2025-06-13T21:06:42.730+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:06:42.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:06:42.733+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:06:42.733+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:06:42.746+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:06:42.744+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:06:42.747+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:06:42.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.038 seconds
+[2025-06-13T21:07:12.913+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:07:12.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:07:12.915+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:07:12.915+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:07:12.928+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:07:12.926+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:07:12.928+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:07:12.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.034 seconds
+[2025-06-13T21:07:53.492+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:07:53.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:07:53.494+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:07:53.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:07:53.507+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:07:53.504+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:07:53.508+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:07:53.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.045 seconds
+[2025-06-13T21:08:23.773+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:08:23.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:08:23.776+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:08:23.776+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:08:23.788+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:08:23.786+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:08:23.789+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:08:23.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.045 seconds
+[2025-06-13T21:08:53.965+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:08:53.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:08:53.967+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:08:53.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:08:53.978+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:08:53.976+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:08:53.979+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:08:53.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.034 seconds
+[2025-06-13T21:09:24.168+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:09:24.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:09:24.171+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:09:24.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:09:24.184+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:09:24.182+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:09:24.186+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:09:24.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.042 seconds
+[2025-06-13T21:09:54.361+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:09:54.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:09:54.364+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:09:54.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:09:54.376+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:09:54.373+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:09:54.377+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:09:54.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.047 seconds
+[2025-06-13T21:10:24.540+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:10:24.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:10:24.542+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:10:24.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:10:24.556+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:10:24.553+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:10:24.557+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:10:24.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.035 seconds
+[2025-06-13T21:10:54.742+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:10:54.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:10:54.744+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:10:54.743+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:10:54.754+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:10:54.752+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:10:54.755+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:10:54.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.032 seconds
+[2025-06-13T21:11:24.953+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:11:24.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:11:24.956+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:11:24.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:11:24.968+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:11:24.966+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:11:24.969+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:11:24.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.045 seconds
+[2025-06-13T21:11:55.123+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:11:55.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:11:55.125+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:11:55.125+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:11:55.139+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:11:55.136+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:11:55.141+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:11:55.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.050 seconds
+[2025-06-13T21:12:25.384+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:12:25.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:12:25.386+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:12:25.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:12:25.397+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:12:25.395+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:12:25.398+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:12:25.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.034 seconds
+[2025-06-13T21:12:55.609+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:12:55.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:12:55.612+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:12:55.612+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:12:55.626+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:12:55.624+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 10, in <module>
+    from youtube_api_extract import get_channel_stats, get_recent_videos, save_to_csv
+ModuleNotFoundError: No module named 'youtube_api_extract'
+[2025-06-13T21:12:55.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:12:55.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.053 seconds
+[2025-06-13T21:13:21.619+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:13:21.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:13:21.626+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:13:21.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:13:23.188+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:13:23.185+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:13:23.189+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:13:23.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.600 seconds
+[2025-06-13T21:13:53.403+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:13:53.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:13:53.406+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:13:53.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:13:53.905+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:13:53.902+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:13:53.906+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:13:53.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.532 seconds
+[2025-06-13T21:14:24.136+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:14:24.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:14:24.138+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:14:24.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:14:24.605+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:14:24.602+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:14:24.606+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:14:24.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.499 seconds
+[2025-06-13T21:14:54.816+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:14:54.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:14:54.819+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:14:54.819+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:14:55.316+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:14:55.313+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:14:55.317+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:14:55.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.531 seconds
+[2025-06-13T21:15:25.485+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:15:25.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:15:25.488+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:15:25.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:15:25.958+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:15:25.955+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:15:25.959+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:15:25.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.505 seconds
+[2025-06-13T21:15:56.158+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:15:56.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:15:56.161+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:15:56.160+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:15:56.689+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:15:56.686+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:15:56.690+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:15:56.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.565 seconds
+[2025-06-13T21:16:26.829+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:16:26.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:16:26.832+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:16:26.832+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:16:27.355+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:16:27.352+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:16:27.356+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:16:27.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.556 seconds
+[2025-06-13T21:16:57.570+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:16:57.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:16:57.572+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:16:57.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:16:58.052+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:16:58.050+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:16:58.053+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:16:58.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.513 seconds
+[2025-06-13T21:17:28.223+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:17:28.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:17:28.226+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:17:28.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:17:28.709+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:17:28.707+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:17:28.710+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:17:28.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.516 seconds
+[2025-06-13T21:17:58.978+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:17:58.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:17:58.981+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:17:58.981+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:17:59.478+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:17:59.475+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:17:59.479+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:17:59.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.533 seconds
+[2025-06-13T21:18:29.626+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:18:29.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:18:29.629+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:18:29.628+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:18:30.130+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:18:30.127+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:18:30.131+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:18:30.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.528 seconds
+[2025-06-13T21:19:00.323+0000] {processor.py:161} INFO - Started process (PID=245) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:19:00.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:19:00.325+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:00.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:19:00.800+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:00.797+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/youtube_etl_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_etl_dag.py", line 20, in <module>
+    raise ValueError("Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.")
+ValueError: Missing YOUTUBE_API_KEY or CHANNEL_ID in environment variables.
+[2025-06-13T21:19:00.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:19:00.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.509 seconds
+[2025-06-13T21:19:20.054+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:19:20.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:19:20.057+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:20.057+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:19:20.587+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:19:20.757+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:20.757+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:youtube_etl_pipeline
+[2025-06-13T21:19:20.766+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:20.766+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:youtube_etl_pipeline
+[2025-06-13T21:19:20.772+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:20.771+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:youtube_etl_pipeline
+[2025-06-13T21:19:20.773+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:20.773+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:19:20.785+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:20.785+0000] {dag.py:3118} INFO - Creating ORM DAG for youtube_etl_pipeline
+[2025-06-13T21:19:20.902+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:20.902+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:19:20.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.882 seconds
+[2025-06-13T21:19:21.077+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:19:21.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:19:21.079+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:21.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:19:21.581+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:19:21.592+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:21.592+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:19:21.615+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:19:21.615+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:19:21.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.564 seconds
+[2025-06-13T21:49:12.948+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:49:12.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:49:12.953+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:12.953+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:49:17.346+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:49:18.283+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:18.282+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:youtube_etl_pipeline
+[2025-06-13T21:49:18.303+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:18.303+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:youtube_etl_pipeline
+[2025-06-13T21:49:18.329+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:18.328+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:youtube_etl_pipeline
+[2025-06-13T21:49:18.331+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:18.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:49:18.366+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:18.365+0000] {dag.py:3118} INFO - Creating ORM DAG for youtube_etl_pipeline
+[2025-06-13T21:49:18.400+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:18.399+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:49:18.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 5.535 seconds
+[2025-06-13T21:49:45.613+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:49:45.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:49:45.620+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:45.619+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:49:48.145+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:49:48.206+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:48.206+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:49:48.237+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:49:48.236+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:49:48.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 2.675 seconds
+[2025-06-13T21:50:18.586+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:50:18.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:50:18.591+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:50:18.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:50:20.118+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:50:20.208+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:50:20.207+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:50:20.301+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:50:20.301+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:50:20.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.787 seconds
+[2025-06-13T21:50:50.704+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:50:50.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:50:50.709+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:50:50.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:50:51.577+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:50:51.627+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:50:51.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:50:51.666+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:50:51.665+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:50:51.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.010 seconds
+[2025-06-13T21:51:22.030+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:51:22.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:51:22.038+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:51:22.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:51:23.135+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:51:23.171+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:51:23.170+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:51:23.200+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:51:23.199+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:51:23.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.216 seconds
+[2025-06-13T21:51:53.390+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:51:53.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:51:53.402+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:51:53.401+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:51:54.585+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:51:54.649+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:51:54.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:51:54.704+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:51:54.704+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:51:54.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.378 seconds
+[2025-06-13T21:52:25.077+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:52:25.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:52:25.081+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:52:25.081+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:52:25.820+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:52:25.852+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:52:25.851+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:52:25.903+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:52:25.903+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:52:25.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.863 seconds
+[2025-06-13T21:52:56.126+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:52:56.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:52:56.130+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:52:56.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:52:56.874+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:52:56.907+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:52:56.906+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:52:56.936+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:52:56.936+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:52:56.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.847 seconds
+[2025-06-13T21:53:27.365+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:53:27.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:53:27.375+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:53:27.374+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:53:28.136+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:53:28.167+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:53:28.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:53:28.197+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:53:28.196+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:53:28.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.881 seconds
+[2025-06-13T21:53:58.578+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:53:58.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:53:58.585+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:53:58.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:54:00.174+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:54:00.233+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:54:00.232+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:54:00.324+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:54:00.324+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:54:00.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.844 seconds
+[2025-06-13T21:54:30.793+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:54:30.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:54:30.803+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:54:30.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:54:32.723+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:54:32.773+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:54:32.772+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:54:32.805+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:54:32.804+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:54:32.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 2.050 seconds
+[2025-06-13T21:55:03.299+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:55:03.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:55:03.306+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:55:03.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:55:04.076+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:55:04.110+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:55:04.110+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:55:04.143+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:55:04.142+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:55:04.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.896 seconds
+[2025-06-13T21:55:34.474+0000] {processor.py:161} INFO - Started process (PID=245) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:55:34.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:55:34.478+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:55:34.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:55:35.261+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:55:35.293+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:55:35.293+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:55:35.325+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:55:35.325+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:55:35.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.896 seconds
+[2025-06-13T21:56:05.718+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:56:05.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:56:05.723+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:56:05.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:56:06.520+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:56:06.554+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:56:06.554+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:56:06.586+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:56:06.586+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:56:06.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.120 seconds
+[2025-06-13T21:56:37.128+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:56:37.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:56:37.140+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:56:37.139+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:56:38.439+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:56:38.474+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:56:38.474+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:56:38.507+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:56:38.506+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:56:38.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.439 seconds
+[2025-06-13T21:57:08.893+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:57:08.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:57:08.899+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:57:08.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:57:10.728+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:57:10.948+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:57:10.947+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:57:11.130+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:57:11.130+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-12 00:00:00+00:00, run_after=2025-06-13 00:00:00+00:00
+[2025-06-13T21:57:11.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 2.336 seconds
+[2025-06-13T21:57:41.741+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:57:41.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:57:41.774+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:57:41.772+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:57:43.534+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:57:43.629+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:57:43.627+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:57:43.712+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:57:43.711+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-13 00:00:00+00:00, run_after=2025-06-14 00:00:00+00:00
+[2025-06-13T21:57:43.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 2.085 seconds
+[2025-06-13T21:58:14.099+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:58:14.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:58:14.111+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:58:14.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:58:15.959+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:58:16.026+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:58:16.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:58:16.076+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:58:16.076+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-13 00:00:00+00:00, run_after=2025-06-14 00:00:00+00:00
+[2025-06-13T21:58:16.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 2.045 seconds
+[2025-06-13T21:58:46.543+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:58:46.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:58:46.556+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:58:46.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:58:47.530+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:58:47.558+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:58:47.557+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:58:47.590+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:58:47.589+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-13 00:00:00+00:00, run_after=2025-06-14 00:00:00+00:00
+[2025-06-13T21:58:47.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.107 seconds
+[2025-06-13T21:59:17.838+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:59:17.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:59:17.843+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:59:17.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:59:18.801+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:59:18.839+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:59:18.838+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:59:18.877+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:59:18.877+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-13 00:00:00+00:00, run_after=2025-06-14 00:00:00+00:00
+[2025-06-13T21:59:19.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.277 seconds
+[2025-06-13T21:59:49.374+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:59:49.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T21:59:49.380+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:59:49.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:59:50.152+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T21:59:50.180+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:59:50.180+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T21:59:50.208+0000] {logging_mixin.py:188} INFO - [2025-06-13T21:59:50.208+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-13 00:00:00+00:00, run_after=2025-06-14 00:00:00+00:00
+[2025-06-13T21:59:50.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.882 seconds
+[2025-06-13T22:00:20.618+0000] {processor.py:161} INFO - Started process (PID=324) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T22:00:20.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T22:00:20.623+0000] {logging_mixin.py:188} INFO - [2025-06-13T22:00:20.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T22:00:21.387+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T22:00:21.415+0000] {logging_mixin.py:188} INFO - [2025-06-13T22:00:21.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T22:00:21.441+0000] {logging_mixin.py:188} INFO - [2025-06-13T22:00:21.441+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-13 00:00:00+00:00, run_after=2025-06-14 00:00:00+00:00
+[2025-06-13T22:00:21.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 0.866 seconds
+[2025-06-13T22:00:51.865+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T22:00:51.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/youtube_etl_dag.py for tasks to queue
+[2025-06-13T22:00:51.871+0000] {logging_mixin.py:188} INFO - [2025-06-13T22:00:51.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T22:00:52.815+0000] {processor.py:840} INFO - DAG(s) 'youtube_etl_pipeline' retrieved from /opt/airflow/dags/youtube_etl_dag.py
+[2025-06-13T22:00:52.884+0000] {logging_mixin.py:188} INFO - [2025-06-13T22:00:52.883+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-13T22:00:52.939+0000] {logging_mixin.py:188} INFO - [2025-06-13T22:00:52.939+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_etl_pipeline to 2025-06-13 00:00:00+00:00, run_after=2025-06-14 00:00:00+00:00
+[2025-06-13T22:00:52.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/youtube_etl_dag.py took 1.127 seconds
