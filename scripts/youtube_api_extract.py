@@ -9,7 +9,7 @@ API_KEY = os.getenv("YOUTUBE_API_KEY")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 # Base URL for YouTube API
-YOUTUBE_API_URL = "https://www.googleapis.com/youtube/v3"
+YOUTUBE_API_URL = "YOUR_URL_HERE"
 
 def get_channel_stats(api_key, channel_id):
     url = f"{YOUTUBE_API_URL}/channels?part=snippet,statistics&id={channel_id}&key={api_key}"
